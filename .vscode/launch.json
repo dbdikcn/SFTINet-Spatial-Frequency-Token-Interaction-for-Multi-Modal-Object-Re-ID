@@ -1,0 +1,21 @@
+{
+    
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "train_net",
+            "type": "python",
+            "request": "launch",
+            "program": "test_net.py",
+            "console": "integratedTerminal",
+            "justMyCode": False,
+            "args": [
+                "--config",
+                "configs/RGBNT201/TOP-ReID.yml"
+
+            ]
+
+        }
+        
+    ]
+}
